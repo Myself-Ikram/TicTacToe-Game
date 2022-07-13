@@ -7,7 +7,7 @@ remainingBlocks = [0,1,2,3,5,6,7,8]
 t = [0,1,2,3,"X",5,6,7,8]
 #Defining board 
 def tttBoard():
-    #t = [0,1,2,3,"X",5,6,7,8]
+    t = [0,1,2,3,"X",5,6,7,8]
     print("Computer's Turn")
     print("+","-------+" *3,sep="")
     print("|",t[0],"|",t[1],"|",t[2],"|", sep="   ")
